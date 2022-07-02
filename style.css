@@ -340,7 +340,7 @@ a:hover {
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
-    border: 0px;
+    border: 0;
 }
 
 .navbar-toggle:hover {
@@ -688,7 +688,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -712,7 +712,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto auto 10px auto;
 }
 
 h2 {
@@ -783,20 +783,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #993B0F;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #993B0F!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #993B0F;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #993B0F!important;
     color: #FFFFFF!important;
 }
 
@@ -809,11 +809,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #993B0F!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #993B0F!important;
 }
 
 .icon-dark-slate-blue {
@@ -835,6 +835,22 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
+}
+
+.partenaire {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.partenaireElement {
+    margin:  0 10px;
+}
+
+.partenaireElement a {
+    color: white;
 }
 
 @media (max-width: 1024px) {
